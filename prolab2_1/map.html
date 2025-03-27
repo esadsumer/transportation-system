@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e34fbe6ad8e0c429ca5be47e233dae31 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e34fbe6ad8e0c429ca5be47e233dae31" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e34fbe6ad8e0c429ca5be47e233dae31 = L.map(
+                "map_e34fbe6ad8e0c429ca5be47e233dae31",
+                {
+                    center: [40.7654, 29.9408],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_26c4ccf1fd6875cf0e7c9aa8505a50ce = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_26c4ccf1fd6875cf0e7c9aa8505a50ce.addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var marker_60fe228a3a8ee843dd176aaa5f8bcabd = L.marker(
+                [40.78259, 29.94628],
+                {
+}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var icon_f5823b03ff1e5095db3c81012f9b187c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb432f773796657c6ff481ef79674836 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_383a2016b19aa1198a516268ccfe3a92 = $(`<div id="html_383a2016b19aa1198a516268ccfe3a92" style="width: 100.0%; height: 100.0%;">Otogar (Bus)</div>`)[0];
+                popup_cb432f773796657c6ff481ef79674836.setContent(html_383a2016b19aa1198a516268ccfe3a92);
+            
+        
+
+        marker_60fe228a3a8ee843dd176aaa5f8bcabd.bindPopup(popup_cb432f773796657c6ff481ef79674836)
+        ;
+
+        
+    
+    
+                marker_60fe228a3a8ee843dd176aaa5f8bcabd.setIcon(icon_f5823b03ff1e5095db3c81012f9b187c);
+            
+    
+            var poly_line_483c30e782db5a333e2954183ff910cf = L.polyline(
+                [[40.78259, 29.94628], [40.7652, 29.9619]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var marker_237879600f233c709a3a0d5c0ed4b15b = L.marker(
+                [40.7652, 29.9619],
+                {
+}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var icon_ec17f8dc794eba943844fe84f13b5a8f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c3ff610ae121c8fd475fe25c3c2882a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de2ecda0495f79238f7b64fe2287b4d7 = $(`<div id="html_de2ecda0495f79238f7b64fe2287b4d7" style="width: 100.0%; height: 100.0%;">Sekapark (Bus)</div>`)[0];
+                popup_4c3ff610ae121c8fd475fe25c3c2882a.setContent(html_de2ecda0495f79238f7b64fe2287b4d7);
+            
+        
+
+        marker_237879600f233c709a3a0d5c0ed4b15b.bindPopup(popup_4c3ff610ae121c8fd475fe25c3c2882a)
+        ;
+
+        
+    
+    
+                marker_237879600f233c709a3a0d5c0ed4b15b.setIcon(icon_ec17f8dc794eba943844fe84f13b5a8f);
+            
+    
+            var poly_line_f0797f5223c563fb18201740405f6d1d = L.polyline(
+                [[40.7652, 29.9619], [40.770965, 29.959499]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var poly_line_6d49ed8ec3094937b1c12298770788b8 = L.polyline(
+                [[40.7652, 29.9619], [40.77788, 29.94991]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var poly_line_6780de70c0c52e55861bf909ea7f5bbe = L.polyline(
+                [[40.7652, 29.9619], [40.77731, 29.92512]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var marker_e39211e7a4e38e0d98e7f10b9f98a93d = L.marker(
+                [40.770965, 29.959499],
+                {
+}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var icon_dc2b296761f314a3894f9f13d05841c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_182f85d60715916695c8601b8c325f8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54d43896905296e906a21209774b0e4d = $(`<div id="html_54d43896905296e906a21209774b0e4d" style="width: 100.0%; height: 100.0%;">Yahya Kaptan (Bus)</div>`)[0];
+                popup_182f85d60715916695c8601b8c325f8a.setContent(html_54d43896905296e906a21209774b0e4d);
+            
+        
+
+        marker_e39211e7a4e38e0d98e7f10b9f98a93d.bindPopup(popup_182f85d60715916695c8601b8c325f8a)
+        ;
+
+        
+    
+    
+                marker_e39211e7a4e38e0d98e7f10b9f98a93d.setIcon(icon_dc2b296761f314a3894f9f13d05841c5);
+            
+    
+            var poly_line_e76ddb227a85d7084fdfeddf7dc784e5 = L.polyline(
+                [[40.770965, 29.959499], [40.82103, 29.91843]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var marker_3e18085ea8f1d8a84b3acf1fb3b7679f = L.marker(
+                [40.82103, 29.91843],
+                {
+}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var icon_e694895068c18964666226e447d6ca61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_730541a59ffae68e11d6399b580ca870 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0529b3d3bfae9cd31d7b0d4c0b12379 = $(`<div id="html_a0529b3d3bfae9cd31d7b0d4c0b12379" style="width: 100.0%; height: 100.0%;">Umuttepe (Bus)</div>`)[0];
+                popup_730541a59ffae68e11d6399b580ca870.setContent(html_a0529b3d3bfae9cd31d7b0d4c0b12379);
+            
+        
+
+        marker_3e18085ea8f1d8a84b3acf1fb3b7679f.bindPopup(popup_730541a59ffae68e11d6399b580ca870)
+        ;
+
+        
+    
+    
+                marker_3e18085ea8f1d8a84b3acf1fb3b7679f.setIcon(icon_e694895068c18964666226e447d6ca61);
+            
+    
+            var marker_db09e0612e3939afbc1fcbf6c8c1b2bb = L.marker(
+                [40.77788, 29.94991],
+                {
+}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var icon_15d3fc94f5ad3ad70232a1c97706ae2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5fda9838fd2cf5d4e4f09854059e1e2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01cbbed795b836a20457b4342c2f2898 = $(`<div id="html_01cbbed795b836a20457b4342c2f2898" style="width: 100.0%; height: 100.0%;">Symbol AVM (Bus)</div>`)[0];
+                popup_5fda9838fd2cf5d4e4f09854059e1e2c.setContent(html_01cbbed795b836a20457b4342c2f2898);
+            
+        
+
+        marker_db09e0612e3939afbc1fcbf6c8c1b2bb.bindPopup(popup_5fda9838fd2cf5d4e4f09854059e1e2c)
+        ;
+
+        
+    
+    
+                marker_db09e0612e3939afbc1fcbf6c8c1b2bb.setIcon(icon_15d3fc94f5ad3ad70232a1c97706ae2c);
+            
+    
+            var marker_f05efd7c3031a522f00b2d6538a6a0f8 = L.marker(
+                [40.77731, 29.92512],
+                {
+}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var icon_b6b4a1ec62672695b1b6f251e08d9737 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39912ab1424460c5a2a22fb9c3c82b3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c2b3ae9952863f0a869660c8418cfcb = $(`<div id="html_5c2b3ae9952863f0a869660c8418cfcb" style="width: 100.0%; height: 100.0%;">41 Burda AVM (Bus)</div>`)[0];
+                popup_39912ab1424460c5a2a22fb9c3c82b3b.setContent(html_5c2b3ae9952863f0a869660c8418cfcb);
+            
+        
+
+        marker_f05efd7c3031a522f00b2d6538a6a0f8.bindPopup(popup_39912ab1424460c5a2a22fb9c3c82b3b)
+        ;
+
+        
+    
+    
+                marker_f05efd7c3031a522f00b2d6538a6a0f8.setIcon(icon_b6b4a1ec62672695b1b6f251e08d9737);
+            
+    
+            var marker_1083aeaed8f02f0c29de8f801b66c417 = L.marker(
+                [40.78245, 29.9461],
+                {
+}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var icon_d423d91cc3fb51067299e14c11d8d6d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a335f081cb66500a8c2b092670102f2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98885438d716d6b5f33566f8399abc64 = $(`<div id="html_98885438d716d6b5f33566f8399abc64" style="width: 100.0%; height: 100.0%;">Otogar (Tram)</div>`)[0];
+                popup_a335f081cb66500a8c2b092670102f2a.setContent(html_98885438d716d6b5f33566f8399abc64);
+            
+        
+
+        marker_1083aeaed8f02f0c29de8f801b66c417.bindPopup(popup_a335f081cb66500a8c2b092670102f2a)
+        ;
+
+        
+    
+    
+                marker_1083aeaed8f02f0c29de8f801b66c417.setIcon(icon_d423d91cc3fb51067299e14c11d8d6d6);
+            
+    
+            var poly_line_2aa93b460a69590f3b3324a02975e069 = L.polyline(
+                [[40.78245, 29.9461], [40.7716, 29.9601]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var marker_0f7f470597d94d6602b5b155cef66930 = L.marker(
+                [40.7716, 29.9601],
+                {
+}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var icon_d7c0ccc9ac334206c51be33d36236a70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2911e759ccb9e38bd3bc31d91acb78c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab422caa2b3b39dec33308d06052a0a8 = $(`<div id="html_ab422caa2b3b39dec33308d06052a0a8" style="width: 100.0%; height: 100.0%;">Yahya Kaptan (Tram)</div>`)[0];
+                popup_2911e759ccb9e38bd3bc31d91acb78c3.setContent(html_ab422caa2b3b39dec33308d06052a0a8);
+            
+        
+
+        marker_0f7f470597d94d6602b5b155cef66930.bindPopup(popup_2911e759ccb9e38bd3bc31d91acb78c3)
+        ;
+
+        
+    
+    
+                marker_0f7f470597d94d6602b5b155cef66930.setIcon(icon_d7c0ccc9ac334206c51be33d36236a70);
+            
+    
+            var poly_line_baa1a9a82d9a5c3675f44a37860436ca = L.polyline(
+                [[40.7716, 29.9601], [40.762, 29.9655]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var marker_a0a55f69f0c07611e0353581b2a67d4d = L.marker(
+                [40.762, 29.9655],
+                {
+}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var icon_100ccc157b036434b6e529ee9666b7ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_00c5acd637cc9799bf7370bc7af9eec0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83313d845ec10fee8bf7059dd26b20ab = $(`<div id="html_83313d845ec10fee8bf7059dd26b20ab" style="width: 100.0%; height: 100.0%;">Sekapark (Tram)</div>`)[0];
+                popup_00c5acd637cc9799bf7370bc7af9eec0.setContent(html_83313d845ec10fee8bf7059dd26b20ab);
+            
+        
+
+        marker_a0a55f69f0c07611e0353581b2a67d4d.bindPopup(popup_00c5acd637cc9799bf7370bc7af9eec0)
+        ;
+
+        
+    
+    
+                marker_a0a55f69f0c07611e0353581b2a67d4d.setIcon(icon_100ccc157b036434b6e529ee9666b7ca);
+            
+    
+            var poly_line_a9883ecaed8c350afe54b33be8c68cbd = L.polyline(
+                [[40.762, 29.9655], [40.7635, 29.9387]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var marker_3494dfcb82d38c06b69a10bd509a36d6 = L.marker(
+                [40.7635, 29.9387],
+                {
+}
+            ).addTo(map_e34fbe6ad8e0c429ca5be47e233dae31);
+        
+    
+            var icon_685513ef80f38f497d98b24c0c6305ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a8ed0134b1d482eeb0ce9df4511b845 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_683ea95abb7c79575e2d4cd00dbf506a = $(`<div id="html_683ea95abb7c79575e2d4cd00dbf506a" style="width: 100.0%; height: 100.0%;">Halkevi (Tram)</div>`)[0];
+                popup_0a8ed0134b1d482eeb0ce9df4511b845.setContent(html_683ea95abb7c79575e2d4cd00dbf506a);
+            
+        
+
+        marker_3494dfcb82d38c06b69a10bd509a36d6.bindPopup(popup_0a8ed0134b1d482eeb0ce9df4511b845)
+        ;
+
+        
+    
+    
+                marker_3494dfcb82d38c06b69a10bd509a36d6.setIcon(icon_685513ef80f38f497d98b24c0c6305ec);
+            
+</script>
+</html>
